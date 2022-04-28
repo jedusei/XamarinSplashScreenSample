@@ -1,0 +1,21 @@
+<resources>
+
+	<!--Splash screen theme-->
+	<style name="SplashTheme" parent="Theme.SplashScreen">
+		<item name="windowSplashScreenBackground">@android:color/white</item>
+		<item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+		<item name="postSplashScreenTheme">@style/MainTheme</item>
+		<item name="android:windowLightStatusBar">true</item> 
+	</style>
+
+	<!--Main Theme-->
+	<style name="MainTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="windowNoTitle">true</item>
+		<item name="windowActionBar">false</item>
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+		<item name="android:windowLightStatusBar">false</item>
+	</style>
+
+</resources>
